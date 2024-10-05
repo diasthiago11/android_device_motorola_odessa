@@ -38,8 +38,7 @@ RISING_MAINTAINER="ThiagoChizz"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 730G"
     RISING_MAINTAINER="ThiagoChizz"
-WITH_GMS := true
-TARGET_CORE_GMS := true
+WITH_GMS := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odessa
