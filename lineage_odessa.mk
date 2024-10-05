@@ -32,6 +32,15 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Sign Build
 -include vendor/lineage-priv/keys/keys.mk
 
+# RisingOS
+RISING_CHIPSET="Snapdragon 730G"
+RISING_MAINTAINER="dias.thiago__"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 730G"
+    RISING_MAINTAINER="dias.thiago__"
+WITH_GMS := true
+TARGET_CORE_GMS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odessa
 PRODUCT_DEVICE := odessa
