@@ -29,9 +29,6 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Sign Build
--include vendor/lineage-priv/keys/keys.mk
-
 # RisingOS
 RISING_CHIPSET="Snapdragon 730G"
 RISING_MAINTAINER="ThiagoDias"
