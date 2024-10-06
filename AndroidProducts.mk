@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_odessa.mk
+    $(LOCAL_DIR)/yaap_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_odessa-eng \
-    lineage_odessa-user \
-    lineage_odessa-userdebug
+    yaap_odessa-eng \
+    yaap_odessa-user \
+    yaap_odessa-userdebug
