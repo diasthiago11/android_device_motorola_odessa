@@ -32,12 +32,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Sign Build
 -include vendor/lineage-priv/keys/keys.mk
 
-#EverestOS-14 stuffs.
-EVEREST_MAINTAINER := ThiagoDias
-TARGET_SUPPORTS_BLUR := false
-WITH_GAPPS := false
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := false
+# RisingOS
+RISING_CHIPSET="Snapdragon 730G"
+RISING_MAINTAINER="ThiagoDias"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 730G"
+    RISING_MAINTAINER="ThiagoDias"
+WITH_GMS := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odessa
