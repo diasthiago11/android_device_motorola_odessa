@@ -32,11 +32,8 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Matrixx stuff.
-MATRIXX_MAINTAINER := dias.thiago__
-MATRIXX_CHIPSET := SM7150
-MATRIXX_BATTERY := 5000mAh
-MATRIXX_DISPLAY := 1080x2400
+#AlphaDroid stuff
+ALPHA_MAINTAINER := ThiagoDias
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odessa
