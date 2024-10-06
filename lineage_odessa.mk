@@ -32,9 +32,8 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# RisingOS flags
-RISING_MAINTAINER := ThiagoDias
-WITH_GMS := false
+#AlphaDroid stuffs.
+ALPHA_MAINTAINER := ThiagoDias
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odessa
@@ -50,7 +49,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 BUILD_FINGERPRINT := "motorola/odessa_retail/odessa:11/RPAS31.Q2-59-17-4-5-5/af8e3:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=odessa_retail \
-    RISING_MAINTAINER="ThiagoDias" \
     PRIVATE_BUILD_DESC="odessa_retail-user 11 RPAS31.Q2-59-17-4-5-5 af8e3 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
