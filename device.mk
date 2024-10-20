@@ -36,7 +36,8 @@ PRODUCT_PACKAGES += \
     SettingsResOdessa \
     SystemUIResOdessa \
     NoCutoutOverlay \
-    AvoidAppsInCutoutOverlay
+    AvoidAppsInCutoutOverlay \
+    OpenDeltaOverlayOdessa
 
 # Audio
 PRODUCT_COPY_FILES += \
