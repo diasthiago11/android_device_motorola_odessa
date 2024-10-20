@@ -26,6 +26,9 @@ $(call inherit-product, vendor/motorola/odessa/odessa-vendor.mk)
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
+# Board
+TARGET_BOARD_PLATFORM := sm6150
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-pixel
