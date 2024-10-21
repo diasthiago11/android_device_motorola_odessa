@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/odessa/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Sign Build
 -include vendor/lineage-priv/keys/keys.mk
@@ -33,7 +33,7 @@ TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := yaap_odessa
+PRODUCT_NAME := derp_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus
